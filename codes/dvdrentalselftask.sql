@@ -1,0 +1,5 @@
+-- Müşteri başına toplam kira sayısını hesaplayıp, 20'den fazla kiralama yapan müşterileri getirin.
+-- 
+-- select customer_id, count(rental_id) from rental
+-- GROUP by customer_id
+-- having count(rental_id) >20
